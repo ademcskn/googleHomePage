@@ -1,0 +1,229 @@
+.header{
+    display: flex;
+    flex-grow: 1;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-top: 0px;
+}
+
+.pic img{
+    border-radius: 50%;
+}
+.header li {
+    padding: 5px 7px;
+
+}
+
+.header li  a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.header li a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subContainer img{
+    max-height: 92px;
+    width: auto;
+    position: relative;
+}
+
+.search-area{
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    width: auto;
+    max-width: 584px;
+    margin: 20px auto;
+}
+.search{
+    display: flex;
+    justify-content: center;   
+    flex:1;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+.search-img{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -3px;
+}
+.search-img span {
+    margin-top: 3px;
+    color: #9aa0a6;
+    width: 20px;
+}
+.search-img svg{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.divInput{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.input-enter{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.input-area{
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+}
+.input-area .input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    width: 480px;
+}
+.voiceButton{
+    display: flex;
+    flex: 0 0 auto;
+    align-items: stretch;
+    flex-direction: row;
+}
+.voiceSearch{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+.voiceSearch svg{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.searchSpan{
+display: inline-block;
+fill: currentColor;
+height: 24px;
+line-height: 24px;
+position: relative;
+width: 24px;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.buttons button{
+    background-color: #f8f9fa;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 6px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.buttons button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.buttons a:hover{
+    cursor: context-menu;
+}
+
+.country{
+background-color: #f2f2f2;
+padding: 15px 18px;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgba(0,0,0,.54);;
+border-bottom: 1px solid #dadce0;;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+}
+
+.footerSecond{
+    margin-left: -2px;
+}
+
+.footerSecond ul {
+    display: flex;
+    padding-left:0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    margin: auto 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    padding:0 5px;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+/* a tagi olduğu için basınca metnin rengi kırmızı oluyordu. */
+ul li:active{
+    color:#70757a;
+}
+
+ul li a {
+    text-decoration: none;
+}
+.footerli a{
+    color :#70757a
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    /* genişliği 100 yapınca ekranın altında scrollbar çıkıyor */
+    width: 99%;
+}
